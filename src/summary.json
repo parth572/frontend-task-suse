@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "summary": "RMT (Repository Mirroring Tool) is a tool for SUSE Linux Enterprise 15 SP2 that allows enterprise customers to optimize the management of software updates and subscription entitlements for SUSE Linux Enterprise. It acts as a proxy for SUSE Customer Center and allows customers to centrally manage software updates within a firewall on a per-system basis, while maintaining corporate security policies and regulatory compliance. RMT allows for the distribution of updates throughout the enterprise, reducing bandwidth usage and allowing for more restrictive firewall policies. It is available for customers with an active SUSE Linux Enterprise product subscription.",
+  "clientUseSummary": [
+    {
+      "id": 2,
+      "name": "Clients can configure a proxy by providing the proxy information as boot parameters during the initial system installation or boot process."
+    },
+    {
+      "id": 3,
+      "name": "Clients can also use an AutoYaST profile to configure the proxy settings. This allows for automated and consistent configuration across multiple systems."
+    },
+    {
+      "id": 4,
+      "name": "The rmt-client-setup command can also be used to configure the proxy settings for clients. This command allows for easy setup and configuration of the RMT server and proxy settings."
+    },
+    {
+      "id": 5,
+      "name": "The YaST registration module can also be used to configure the proxy settings during the initial system installation or at a later time. This module provides a user-friendly interface for configuring the RMT server and proxy settings."
+    },
+    {
+      "id": 6,
+      "name": "Clients can also configure the proxy settings manually by editing the /etc/zypp/zypp.conf file and adding the proxy information."
+    },
+    {
+      "id": 7,
+      "name": "If the proxy requires authentication, the clients can provide the proxy username and password as boot parameters or in the AutoYaST profile."
+    },
+    {
+      "id": 8,
+      "name": "The clients can also use the http_proxy and https_proxy environment variables to configure the proxy settings."
+    },
+    {
+      "id": 9,
+      "name": "Clients can use the command line tool curl to test their proxy configuration and ensure that they are able to communicate with the RMT server through the proxy."
+    }
+  ],
+  "linkDetail": "Please click on this link to get detailed steps for configuring clients to use the RMT proxy.",
+  "linkPage": "https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-rmt-client.html"
+}
