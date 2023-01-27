@@ -1,3 +1,5 @@
+Attached video : frontend_task.mp4
+
 My design for the SUSE Repository Mirroring Tool (RMT) frontend focuses on creating a user-friendly and easy-to-use interface. To achieve this goal, I have used a minimalistic and clean design, with a focus on easy navigation and readability.
 
 To improve UI performance, I have implemented event delegation, which allows for efficient handling of events in a large number of elements. I have also used CSS Flex for layout, as it allows for easy and flexible positioning of elements on the page. To build the project, I have chosen React library, which is a popular and widely used JavaScript library for building single-page applications.
