@@ -152,6 +152,13 @@
   min-width: 350px;
 }
 
+.detail-name {
+  color: green;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .container-header {
     font-size: 18px;

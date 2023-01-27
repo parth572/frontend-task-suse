@@ -29,9 +29,7 @@ function ProductsPage() {
   if (!isDetail) {
     return (
       <div>
-        <h1 className="container-header-style">
-          Available Products and Repositories
-        </h1>
+        <h1 className="container-header-style">Available Products</h1>
         <div className="container" onClick={(e) => onDetailClick(e)}>
           {products.map((product) => (
             <div className="container-child" key={product.id}>
@@ -56,6 +54,9 @@ function ProductsPage() {
             onClick={(e) => onBacklClick(e)}
           >
             ◀ Back
+          </div>
+          <div className="container-indicator container-indicator-back detail-name">
+            Product and Repository Information
           </div>
         </div>
         {details.map((item, index) => (
