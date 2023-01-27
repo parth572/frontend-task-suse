@@ -1,7 +1,7 @@
 # frontend-task-suse
 
 <!-- Attached video -->
-frontend_task.mp4
+frontend_task.mp4 (Attached video)
 
 <!-- URL -->
 https://7gng34.csb.app/
