@@ -73,13 +73,13 @@ function ProductsPage() {
               <div className="container-repo" key={index}>
                 <div className="container-detail">
                   <div className="container-detail-name container-repo-desc">
-                    Repositories Name : {index + 1}
+                    Repository Name : {index + 1}
                   </div>
                   <div>{res.name}</div>
                 </div>
                 <div className="container-detail">
                   <div className="container-detail-name container-repo-desc">
-                    Repositories Description : {index + 1}
+                    Repository Description : {index + 1}
                   </div>
                   <div>{res.description}</div>
                 </div>
